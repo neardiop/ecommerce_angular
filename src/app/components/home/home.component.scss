@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: blueviolet;
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    background-color: brown;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: burlywood;
+}
