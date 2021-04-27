@@ -10,13 +10,15 @@ import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ProductsListComponent,
     ProductsListItemComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+
   ],
   imports: [
     BrowserModule,

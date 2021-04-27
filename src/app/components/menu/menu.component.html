@@ -1,3 +1,60 @@
-<p>
-  menu works!
-</p>
+<div class="wrapper">
+
+<!-- Sidebar  -->
+<button type="button" id="menuCollapse" class="btn btn-info">
+    <i class="fas fa-align-left"></i>
+    <span>Toggle Sidebar</span>
+</button>
+<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-align-justify"></i>
+</button>
+<nav id="menu">
+    <div id="dismiss">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+
+   
+
+    <ul class="list-unstyled components">
+        
+ 
+        <li>
+            
+            <a [routerLink]="'/#'" data-toggle="collapse" aria-expanded="false">Tendances</a>
+            <ul >
+                <li>
+                    <a [routerLink]="'/#'">Meilleur Vente</a>
+                    <a [routerLink]="'/#'">Promotion</a>
+                    <a [routerLink]="'/#'">Nouveauté</a>
+                   
+                </li>
+               
+                
+            </ul>
+        </li>
+        
+    </ul>
+    
+    <ul class="list-unstyled components">
+        
+ 
+        <li>
+            
+            <a [routerLink]="'/#'" data-toggle="collapse" aria-expanded="false">Toutes les Categories</a>
+            <ul >
+                <li>
+                    <a [routerLink]="'/#'">Electronique</a>
+                    <a [routerLink]="'/#'">Fimls</a>
+                    <a [routerLink]="'/#'">Jeux Vidéo</a>
+                    <a [routerLink]="'/#'">Foods</a>
+                </li>
+               
+                
+            </ul>
+        </li>
+        
+    </ul>
+
+    
+</nav>
+</div>
